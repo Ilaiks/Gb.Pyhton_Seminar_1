@@ -160,7 +160,7 @@ while flag:
 """
 
 
-
+"""
 n = int(input())
 flag = True
 i = 2
@@ -172,3 +172,31 @@ while flag:
         print(n)
         flag = False
     i += 1     
+    """
+
+
+"""
+a = 'qwerty'
+
+for i in a:
+    print(i)
+"""
+
+
+"""
+line = ""
+for i in range (5):
+    line = ""
+    for j in range(5):
+        line += "*"
+    print(line)
+"""
+
+
+
+text = 'Сьешь ещё этих мягких французких булок'
+print(len(text))
+print('ещё' in text)
+print(text.lower())
+print(text.upper())
+print(text.replace('ещё','ЕЩЁ'))
