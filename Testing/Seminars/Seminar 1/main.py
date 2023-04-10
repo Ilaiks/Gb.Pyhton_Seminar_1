@@ -117,3 +117,28 @@ iter **= 5 #iter = iter ** 5
 # print(a==b)
 # a = 1 < 3 < 5 < 10
 # print(a)
+
+
+"""
+username = input('введите имя: ')
+if username == 'Маша':
+    print('Ура, это же МАША!')
+elif username == 'Марина':
+    print('Я так ждала Вас, Марина!')
+elif username == 'Ильнар':
+    print('Ильнар - топ)')
+else:
+    print('Привет, ', username)            
+"""
+
+
+
+i = 0
+while i < 5:
+    if i == 3:
+        break
+    i = i + 1
+else:
+    print('Пожалуй')
+    print('хватит')
+print(i)
